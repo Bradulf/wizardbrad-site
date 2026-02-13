@@ -120,3 +120,36 @@ h1 {
     font-size: 0.9rem;
     opacity: 0.75;
 }
+
+/* notes */
+.note {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.note-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.6));
+}
+
+.note p {
+    line-height: 1.6;
+    color: #e6d7c3;
+}
+
+/* anchor  tags */
+a {
+    color: #d8c3a5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f2e6d4;
+}
