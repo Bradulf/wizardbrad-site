@@ -153,3 +153,21 @@ a:hover {
     text-decoration: underline;
     color: #f2e6d4;
 }
+
+.entry-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f0d8a8;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid rgba(240, 216, 168, 0.4);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.entry-link:hover {
+    background-color: rgba(240, 216, 168, 0.1);
+    box-shadow: 0 0 10px rgba(240, 216, 168, 0.3);
+}
